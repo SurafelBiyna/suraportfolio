@@ -46,8 +46,12 @@ const handleClick=()=>{
     <div onClick={handleClick} className='md:hidden pr-4 text-3xl  z-10'> 
      {!nav ?<AiOutlineMenu/>:<AiOutlineClose/> } 
     </div>
-
+        
     <ul className={!nav ? 'hidden': 'absolute top-0 left-0 w-full h-screen  flex flex-col justify-center items-center bg-[#FC5C29]'}>
+    
+    <div className="absolute top-0 left-0">
+      <img src={img2} alt="img2" style={{ width: "140px" }} />
+    </div>
         <li className='py-6 text-3xl hover:border-b-2 hover:border-[#2C2623] transition-transform duration-300 transform hover:scale-110'>
         <Link onClick={handleClick}  to="home"  smooth={true}  duration={500} >
           Home
@@ -76,7 +80,7 @@ const handleClick=()=>{
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FC5C29]'>
             <a
               className='flex justify-between items-center w-full text-[#2C2623]'
-              href='/'
+              href='https://www.linkedin.com/public-profile/settings' target='_blank' rel='noopener noreferrer'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -84,7 +88,7 @@ const handleClick=()=>{
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FC5C29]'>
             <a
               className='flex justify-between items-center w-full text-[#2C2623]'
-              href='/'
+              href='https://github.com/SifenTesfa' target='_blank' rel='noopener noreferrer'
             >
               Github <FaGithub size={30} />
             </a>
@@ -92,7 +96,7 @@ const handleClick=()=>{
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FC5C29]'>
             <a
               className='flex justify-between items-center w-full text-[#2C2623]'
-              href='/'
+              href="https://mail.google.com/mail/?view=cm&to=sifentt@gmail.com" target='_blank' rel='noopener noreferrer'
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -114,7 +118,7 @@ const handleClick=()=>{
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FC5C29]'>
             <a
               className='flex justify-between items-center w-full text-[#2C2623]'
-              href='/'
+              href='https://www.linkedin.com/public-profile/settings' target='_blank' rel='noopener noreferrer'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -122,7 +126,7 @@ const handleClick=()=>{
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FC5C29]'>
             <a
               className='flex justify-between items-center w-full text-[#2C2623]'
-              href='/'
+              href='https://github.com/SifenTesfa' target='_blank' rel='noopener noreferrer'
             >
               Github <FaGithub size={30} />
             </a>
@@ -130,7 +134,8 @@ const handleClick=()=>{
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FC5C29]'>
             <a
               className='flex justify-between items-center w-full text-[#2C2623]'
-              href='/'
+              href="https://mail.google.com/mail/?view=cm&to=sifentt@gmail.com"
+              target='_blank' rel='noopener noreferrer'
             >
               Email <HiOutlineMail size={30} />
             </a>
