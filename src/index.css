@@ -14,20 +14,7 @@
     }
 }
 
-.content-div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-}
 
-.content-div:hover {
-    background-image: linear-gradient(
-        to right,
-        rgba(253, 76, 0, 0.807),
-        hsl(21, 100%, 50%)   
-    )!important;
-}
 .animate-pop-up {
     animation-name: pop-up;
     animation-duration: 0.5s;
