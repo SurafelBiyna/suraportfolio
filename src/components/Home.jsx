@@ -2,6 +2,7 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import img1 from '../assets/img1.png';
 import { Link } from 'react-scroll';
+import Typed from 'react-typed';
 const Home = () => {
   return (
     <div name="home" className="w-full z-10 h-screen pt-24 sm:pt-48 bg-[#ffffff]">
@@ -15,8 +16,13 @@ const Home = () => {
           SURAFEL BIYNA
           </h1>
           <h2 className="text-4xl sm:text-4xl font-bold text-[#2b1112]">
-            I'm a Designer.
+            I'm a <Typed className="text-4xl sm:text-4xl font-bold text-[#2b1112]"
+                  strings={['Designer.']} 
+                  typedSpeed={120}
+                  backSpeed={140}
+                  loop/> 
           </h2>
+          
           <p className="text-[#2b1112]  py-4 max-w-[700px]">
             I’m a passionate and creative graphic designer with several years of experience helping 
 clients bring their vision to life through eye-catching design.

@@ -12,7 +12,7 @@ import img20 from "../assets/img20.png"
 import img21 from "../assets/img21.png"
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen pt-24 sm:pt-[530px] pb-24 sm:pb-[500px]  text-[#2b1112] bg-[#ffffff]'>
+    <div name='work' className='w-full md:h-screen pt-48 sm:pt-[930px] pb-24 sm:pb-[500px]  text-[#2b1112] bg-[#ffffff]'>
     <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
       <div className='pb-0'>
         <p className='text-4xl font-bold inline border-b-4 text-[#2b1112] border-[#763032]'>
@@ -34,18 +34,41 @@ const Work = () => {
 <p className='text-5xl font-bold inline pt-12 pb-12 text-[#2b1112] '>
 Poster Design
         </p>
-        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-3">
-<img className='w-36 mx-auto ' src={img14} alt="img14" />
-<img className='w-56 mx-auto ' src={img16} alt="img16" />
-<img className='w-36 mx-auto ' src={img15} alt="img15" />
-<img className='w-56 mx-auto ' src={img17} alt="img17" />
-<img className='w-64 mx-auto ' src={img18} alt="img18" />
-<img className='w-64 mx-auto ' src={img19} alt="img19" />
-<img className='w-72 mx-auto ' src={img20} alt="img20" />
-<img className='w-72 mx-auto ' src={img21} alt="img21" />
+        <div className="grid sm:grid-cols-8  md:grid-cols-1 gap-10">
 
-</div>
-    </div>
+        <div className="flex flex-wrap">
+  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-4">
+    <img className="object-cover w-full h-full" src={img15} alt="img15" />
+  </div>
+  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-4">
+    <img className="object-cover w-full h-full" src={img14} alt="img14" />
+  </div>
+<div className="w-full sm:w-[120px]  xl:w-[290px] p-4">
+    <img className="object-cover w-full h-full" src={img16} alt="img16" />
+  </div>
+  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-[290px] p-4">
+    <img className="object-cover w-full h-full" src={img21} alt="img21" />
+  </div>
+  </div>
+ 
+  <div className="flex flex-wrap"> 
+  
+   <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-[290px] p-4">
+    <img className="object-cover w-full h-full" src={img17} alt="img17" />
+  </div> 
+  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-[490px] p-4">
+    <img className="object-cover w-full h-full" src={img18} alt="img18" />
+  </div>   </div>
+  <div className="flex flex-wrap">
+  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-[290px] p-4">
+    <img className="object-cover w-full h-full" src={img19} alt="img19" />
+  </div>
+  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-[320px] p-4">
+    <img className="object-cover w-full h-full" src={img20} alt="img20" />
+  </div> </div>
+  
+
+    </div> </div>
   </div>
   )
 }

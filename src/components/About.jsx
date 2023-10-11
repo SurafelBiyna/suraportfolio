@@ -34,7 +34,7 @@ const About = () => {
   
   return (
     <div> 
-      <div id='about' className='w-full min-h-screen h-screen bg-[#ffffff] text-[#2b1112]'>
+      <div id='about' className='w-full pt-10 min-h-screen h-screen bg-[#ffffff] text-[#2b1112]'>
     <div className='flex flex-col justify-center items-center w-full h-full'>
       <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
         <div  className= 'sm:text-right pb-8 pl-4'>
@@ -49,10 +49,12 @@ const About = () => {
             <p  style={animationStyle} >Hi. I'm Surafel Biyna, nice to meet you. Please take a look around.</p>
           </div>
           <div>
-            <p style={animationStyle} >I’m a passionate and creative graphic designer. With a keen eye for detail and a talent for crafting designs that truly stand out, I bring a fresh perspective to every project I undertake - whether it's a logo, website, marketing materials, or anything else under the branding umbrella.
-I specialize in a list of skills, such as Photoshop, illustration, InDesign branding, painting, etc. and always stay up-to-date on the latest design trends and tools to ensure my work is modern, relevant, and effective.
-My approach to design is collaborative - I love working with clients to understand precisely what they're looking for and delivering work that exceeds their expectations.
-Scroll down to see examples of my design work from previous clients in a wide range of industries, and get in touch if you're interested in working together. Let's create something beautiful together!
+            <p style={animationStyle} >I’m a passionate and creative graphic designer. With a keen eye for detail and a 
+            talent for crafting designs that truly stand out, I bring a fresh perspective to every project I undertake - whether 
+            it's a logo, website, marketing materials, or anything else under the branding umbrella.
+My approach to design is collaborative - I love working with clients to understand precisely what they're 
+looking for and delivering work that exceeds their expectations.
+
 </p>  
           </div>
         </div>
